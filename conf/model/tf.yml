@@ -1,0 +1,10 @@
+model:
+  epochs: 500
+  pred_hour: 1
+  learning_rate: 0.005
+  batch_size: 32
+  norm: "group"
+  activation: "tanh"
+  filters: 20
+  kernel_size: 3
+  dilation_rate: 1
